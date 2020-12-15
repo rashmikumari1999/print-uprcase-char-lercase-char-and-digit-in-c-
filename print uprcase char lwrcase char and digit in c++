@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    char ch;
+    cout<<"enter a charcter";
+    cin>>ch;
+    if(ch>= 65 && ch <= 90)
+    {
+        cout<<endl<<"upercase character";
+    }
+    else if(ch>=48 && ch<= 57)
+    {
+        cout<<endl<<" digit";
+    }
+    else if(ch>=97 && ch<= 122)
+    {
+        cout<< endl<<" lowercas character";
+    }
+    else
+    {
+        cout<<endl<< "special character";
+    }
+    return 0;
+}
